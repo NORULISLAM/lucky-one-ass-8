@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
+import SelectItem from '../SelectItem/SelectItem';
 import './Book.css';
 const Book = () => {
     const [products, setProducts] = useState([]);
@@ -28,18 +29,19 @@ const Book = () => {
             </div>
 
             <div className="cart-container">
-                <h3>Selected Product</h3>
+                <h3>Selected Book</h3>
                 <div>
                     {
                         cart.map(product =>
-
-                            <p key={product.id}>{product.name}</p>
+                            <SelectItem
+                                key={product.id}
+                                product={product}
+                            ></SelectItem>
 
                         )
+
                     }
-
                 </div>
-
 
             </div>
         </div>
