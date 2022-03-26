@@ -8,6 +8,15 @@
     gap: 45px;
     margin: 100px 50px;
 }
+.btn{
+    background-color: #b3ffca;
+    border-radius:8px ;
+   
+}
+
+.btn:hover{
+    background-color: orange;
+}
 
 /* mobaile response */
 @media screen and (max-width:600px){
@@ -20,4 +29,4 @@
     .products-container{
         grid-template-columns: repeat(3,1fr);
     }
-    }
+}

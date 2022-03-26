@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# [lunky one](https://adorable-chimera-3ee8c8.netlify.app/). 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
