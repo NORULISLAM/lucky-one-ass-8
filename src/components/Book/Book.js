@@ -29,8 +29,17 @@ const Book = () => {
 
             <div className="cart-container">
                 <h3>Selected Product</h3>
-                {console.log(cart)}
-                <p>Item: {cart[0].name}</p>
+                <div>
+                    {
+                        cart.map(product =>
+
+                            <p key={product.id}>{product.name}</p>
+
+                        )
+                    }
+
+                </div>
+
 
             </div>
         </div>
